@@ -53,8 +53,7 @@ const CategoryDetails = ({ categories }) => {
         <div className="category-details">
             <div className="category-header">
             <button onClick={toggleSidebar} className="toggle-button">
-
-                <i className="fas fa-bars"></i> {/* Hanger icon */}
+                <i className="fas fa-bars"></i>
             </button>
                 <span style={{ color: 'black' }}>{category.name}</span>
             </div>
