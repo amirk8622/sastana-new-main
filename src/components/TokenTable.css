@@ -1,0 +1,86 @@
+.table-light {
+    background-color: #f8f9fa !important;
+    font-weight: normal;
+}
+
+.container {
+    font-family: 'Arial, sans-serif'; /* Change this to your preferred font */
+  }
+.table {
+    table-layout: fixed;
+    /* Ensures the table takes up full width */
+    width: 100%;
+    /* Full width for the table */
+    word-wrap: break-word;
+    /* Prevents content overflow in cells */
+}
+
+.table th,
+.table td {
+    font-family: Arial, sans-serif; /* Apply to header and cells */
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* .table th {
+    background-color: #007bff;
+    color: white;
+} */
+
+.table td {
+    border: 1px solid #dee2e6;
+}
+
+/* .table-responsive {
+    overflow-x: auto;
+} */
+ 
+.table-responsive {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.pagination {
+    justify-content: flex-end;
+    margin-top: 20px;
+ }
+
+/* .pagination .page-item .page-link {
+    color: #007bff;
+    /* Bootstrap primary color */
+/* } */ 
+
+/* .pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    /* Muted color for disabled links */
+/* } */  
+
+/* .pagination .page-item.active .page-link {
+    background-color: #4CAF50;
+    /* Your desired background color */
+    /* border-color: #4CAF50; */
+    /* Your desired border color */
+    /* color: white; */
+    /* Text color */
+/* } */
+
+/* .pagination .page-link {
+    color: blue;
+    /* Default text color */
+/* } */
+/* 
+.pagination .page-link:hover {
+    background-color: #ddd;
+    /* Hover color */
+/* }  */
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align pagination to the bottom-right corner */
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-bottom: 0;
+}

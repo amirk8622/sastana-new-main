@@ -1,0 +1,29 @@
+/* Add specificity by targeting the span or a tag within the Navbar.Brand */
+.sastana {
+    color:  #007bff !important;
+    /* Use !important to override Bootstrap styles */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.sastana img {
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+
+
+.custom-navbar {
+    background-color: #c1d5e7 !important;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Add shadow */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
