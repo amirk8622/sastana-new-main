@@ -36,9 +36,9 @@ const CategoryDetails = ({ categories }) => {
     useEffect(() => {
         const interval = setInterval(() => {
             setUnlockTime(calculateRemainingTime());
-        }, 1000); // Update every second
+        }, 1000);
 
-        return () => clearInterval(interval); // Cleanup on unmount
+        return () => clearInterval(interval);
     }, []);
 
     const toggleSidebar = () => {
